@@ -1,0 +1,24 @@
+
+
+Project Statistics:
+Total Lines (all .js and .txt files): 11360
+	Lines in .js files: 10572
+	Lines in .txt files: 788
+Total Files: 1026
+	Total .js files: 62
+	Total .txt files: 7
+Total Folders: 278
+Max Depth: 5
+Total Images (.png and .jpg): 135
+Total PDFs (.pdf): 33
+Average Density: 11.07
+Generated on: 2025-01-11 06:32:07.494309
+
+GitHub Insights:
+Total number of commits: 89
+First commit date: 2024-07-23 20:09:04+00:00
+Latest commit date: 2025-01-05 16:56:31+00:00
+Number of branches: 2
+Commits per contributor:
+	Contributor: blacklotus976, Commits: 74
+	Contributor: newsdi2100111, Commits: 15
