@@ -220,7 +220,7 @@ function FractalCanvas({ depth, count, xSqueeze, offset, zoom, setDebug, nestedS
 }
 
 
-export default function FractalViewer() {
+export default function FractalHeartFlowerViewer() {
   const [depth, setDepth] = useState(2);
   const [count, setCount] = useState(3);
   const [offset, setOffset] = useState([0, 0]);

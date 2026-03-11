@@ -56,6 +56,7 @@ import Backgammon from './Games/Backgammon'; // Uncomment if you want to use Bac
 import BoomBoomHeart from './giwr_personal_stuff/boomboomHeart';
 import FractalViewer from './giwr_personal_stuff/fractal_circle';
 import SteganoTool from './giwr_personal_stuff/kwstas_images';
+import FractalHeartFlowerViewer from './giwr_personal_stuff/heart_fractal';
 
 
 
@@ -100,7 +101,7 @@ function App() {
         <Route path="/bike-details" element={<BikeDetails />} />
         <Route path="/book" element={<PublicBook />} />
         {/* <Route path="/rkw-rally" element={<rallies />} /> */}
-        <Route path="/heart_fractal_temp_tell_the_damned_dev_to_fix_the_site" element={<FractalViewer/>} />
+        <Route path="/heart_fractal_temp_tell_the_damned_dev_to_fix_the_site" element={<FractalHeartFlowerViewer/>} />
 
 
         <Route path="/fwkies" element={<FwkiesGeneralHomepage />} />
