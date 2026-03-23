@@ -265,8 +265,19 @@ export default function BlackWhiteStringArt({ width = 800, height = 800 }) {
                 GO TO FULL VERSION
             </button>
             <button 
-                onClick={() => navigate("https://stringar.com/")} 
-                style={{ position: "absolute", top: "60px", right: "20px", padding: "10px 20px", background: "#333", color: "#00f2ff", border: "1px solid #00f2ff", cursor: "pointer", zIndex: 100, fontWeight: "bold" }}
+                onClick={() => window.location.href = "https://stringar.com/"} 
+                style={{ 
+                    position: "absolute", 
+                    top: "60px", 
+                    right: "20px", 
+                    padding: "10px 20px", 
+                    background: "#333", 
+                    color: "#00f2ff", 
+                    border: "1px solid #00f2ff", 
+                    cursor: "pointer", 
+                    zIndex: 100, 
+                    fontWeight: "bold" 
+                }}
             >
                 GO TO PRO SITE FOR THIS THINGY
             </button>
