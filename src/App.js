@@ -57,6 +57,8 @@ import BoomBoomHeart from './giwr_personal_stuff/boomboomHeart';
 import FractalViewer from './giwr_personal_stuff/fractal_circle';
 import SteganoTool from './giwr_personal_stuff/kwstas_images';
 import FractalHeartFlowerViewer from './giwr_personal_stuff/heart_fractal';
+import StringArtMaster from './giwr_personal_stuff/line_drawer';
+import BlackWhiteStringArt from './giwr_personal_stuff/liner_drawer_bw';
 
 
 
@@ -125,6 +127,9 @@ function App() {
         <Route path="/invitation_temp" element={<BoomBoomHeart />} />
         <Route path="/fractal" element={<FractalViewer />} />
         <Route path="/secret_images_mouehehe" element={<SteganoTool />} /> {/* Add the route for SteganoTool */}
+        <Route path="/line_art" element={<StringArtMaster />} />
+        <Route path="/line_art_bw" element={<BlackWhiteStringArt />} />
+
       </Routes>
     </Router>
   );
